@@ -67,3 +67,9 @@ print(len(multiline.rstrip()))
 
 # Build a menu
 title = "menu"
+
+
+
+x = 10 
+for i in range(x):
+    print(i)
