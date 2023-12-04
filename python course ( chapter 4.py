@@ -73,3 +73,6 @@ title = "menu"
 x = 10 
 for i in range(x):
     print(i)
+
+
+print("Goodness is a dumb ass nigga sometime but he really be on his grind and shit")
