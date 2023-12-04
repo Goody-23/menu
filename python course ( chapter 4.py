@@ -65,11 +65,61 @@ print(len(multiline.strip()))
 print(len(multiline.lstrip()))
 print(len(multiline.rstrip()))
 
+print("")
+
 # Build a menu
-title = "menu"
+title = "menu".upper()
+print(title.center(20, "="))
+print("coffee".ljust(16, ".") + "$1".rjust(4))
+print("Muffin".ljust(16, ".") + "$2".rjust(4))
+print("Cheesecake".ljust(16, ".") + "$4".rjust(4))
+
+print("")
+#string index values
+print(first[1])
+print(first[-1])
+print(first[1:-1])
+print(first[1:])
+
+#some methods return boolean (true or false) data
+print(first.startswith("G"))
+print(first.endswith("O"))
+
+print("")
+#Boolean data type
+myvalue = True 
+x = bool(False)
+print(type(x))
+print(isinstance(myvalue, bool))
+
+print("")
+
+print("")
+
+#numeric data types
+
+# integer type
+
+price = 100
+best_price = int(80)
+print(type(price))
+print(isinstance(best_price, int))
+
+
+print("")
+
+print("")
+# float type
+gpa = 3.28 
+y = float(1.14)
+print(type(gpa))
+
+#complx type (often used in electrical engineering)
+comp_value = 5+3j
+print(type(comp_value))
+print(comp_value.real)
+print(comp_value.imag)
 
 
 
-x = 10 
-for i in range(x):
-    print(i)
+
