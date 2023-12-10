@@ -1,3 +1,4 @@
+import math 
 # literal assignment
 
 first = "Goodness"
@@ -119,6 +120,31 @@ comp_value = 5+3j
 print(type(comp_value))
 print(comp_value.real)
 print(comp_value.imag)
+
+# built in functions for numbers
+
+print(abs(gpa))
+
+print(abs(gpa * -1))
+
+print(round(gpa))
+
+print(round(gpa, 1))
+
+
+print(math.pi)
+print(math.sqrt(64))
+print(math.ceil(gpa))
+print(math.floor(gpa))
+
+# casting a string to a number
+Zipcode = "19028"
+zip_value = int(Zipcode)
+print(type(zip_value))
+
+# Error if you attemot to cast incorrect data
+#Zip_value = int("New york")
+
 
 
 
