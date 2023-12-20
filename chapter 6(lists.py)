@@ -1,0 +1,7 @@
+users = ['Goodness','OJ','Jen']
+
+data = ['Goodness','23','True']
+
+emptylist = []
+
+print("Goodness" in emptylist)
