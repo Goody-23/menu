@@ -45,10 +45,30 @@ a = a + 1; // AWould be 5 + 1 =6
 b = b + 5;  // WOuld be 10 + 5 = 15
 c = c + " String!"; // Would be "I am a string!"
 
+console.log(a)
+console.log(b)
+console.log(c)
+
 
 // Case sensitivity in Variables
 // Declarations
 var StudLyCapVaR; /* This is wrong becauae the first letter should be
 lower case and the begining of another word such as "Cap or Var" in this 
 example should be Caps*/
+
+//  Adding numbers
+var sum = 10 + 10;
+console.log(sum)
+var diffrence = 45-33;
+console.log(diffrence)
+
+var product = 8 * 10;
+
+console.log(product)
+
+var quotient = 66 / 33;
+
+console.log(quotient)
+
+//Incrementing numbers
 
